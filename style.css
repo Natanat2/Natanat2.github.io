@@ -1,14 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
   }
   
   header {
-    background-color: #333;
     color: white;
-    padding: 1rem;
+    background-color: black;
+    padding: 1em;
     text-align: center;
   }
   
@@ -16,13 +16,26 @@ body {
     margin: 1rem;
   }
   
-  section {
-    margin-bottom: 2rem;
+  .name {
+    display: grid;
+    padding: auto;
+    grid-template-columns: 1.5fr 0.5fr;
   }
+
+  .pos {
+    margin-top: -50px;
+  }
+
+
+  .foto {
+    margin-top: 10px;
+    justify-self: end;
+  }
+
+    section {
+        margin-bottom: 2rem;
+    }
   
-  h1, h2 {
-    margin-top: 0;
-  }
   
   ul {
     list-style-type: none;
